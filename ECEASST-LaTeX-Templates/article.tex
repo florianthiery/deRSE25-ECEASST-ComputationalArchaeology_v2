@@ -79,7 +79,7 @@ The presented software tools within this paper\footnote{This paper is based on t
     \item \textbf{Reproducible} in the sense that the results can be achieved again following all processes laid out in the paper without requiring additional steps that may be unclear or could lead to deviation
     \item \textbf{Executable} at any point in time - bearing compatibility problems in mind, this requires catering for the necessary containerization or virtualization
     \item \textbf{Attributable} to the data and author at the stage of publication, as well as any co-editor involved in creation of code, adaptation of data etc.
-    \item \textbf{Literal} insofar as the algorithm is a sound and correct representation of the mathematical methods to be applied, and hence can lead to reproducable and generalizable results [the Turing way]
+    \item \textbf{Literal} insofar as the algorithm is a sound and correct representation of the mathematical methods to be applied, and hence can lead to reproducable and generalisable results [the Turing way]
 \end{itemize}
 
 \begin{figure}[h!]
@@ -98,7 +98,7 @@ In general, scientists will generate their own code before reusing existing meth
     void main(){return rnd();}
 \end{lstlisting}
 
-As we can see, the strict Turing Way definition - and therefore the generally acknowledged definition of FAIR and Open Science Code, namely to be fully reproducible - does not lead to actual insights into the code's correctness (i.e. “Literal”ity). We take it for granted by noting that code and data are accessible. However, we are really interested in a publication's scientific relevance and validity - in other words, whether the results apply to a broader range of conditions. Or, to put it in terms of the Turing Way, if they are generalizable. This is immediately obvious with methods such as Monte Carlo or k-means, which rely on stability over random parameters. The implicit statement of such an analysis differs from Reproducibility and is closer to Replicability and Robustness of the Turing Way. Yet, we need to bear in mind that data and analysis have not changed. Instead, as depicted in (Figure~\ref{fig:real}, C), they \textit{stay the same, yet lead to different results}. We therefore distinguish between different Interpretability of the results in terms of:
+As we can see, the strict Turing Way definition - and therefore the generally acknowledged definition of FAIR and Open Science Code, namely to be fully reproducible - does not lead to actual insights into the code's correctness (i.e. “Literal”ity). We take it for granted by noting that code and data are accessible. However, we are really interested in a publication's scientific relevance and validity - in other words, whether the results apply to a broader range of conditions. Or, to put it in terms of the Turing Way, if they are generalisable. This is immediately obvious with methods such as Monte Carlo or k-means, which rely on stability over random parameters. The implicit statement of such an analysis differs from Reproducibility and is closer to Replicability and Robustness of the Turing Way. Yet, we need to bear in mind that data and analysis have not changed. Instead, as depicted in (Figure~\ref{fig:real}, C), they \textit{stay the same, yet lead to different results}. We therefore distinguish between different Interpretability of the results in terms of:
 
 \begin{itemize}
     \item \textbf{Reproducible}: data, code and all environmental conditions are identical. Interpretation of the results is limited to the conditions applied
